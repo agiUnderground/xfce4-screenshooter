@@ -80,7 +80,6 @@
 - Bump Xfce dependencies to 4.14
 - _NET_FRAME_EXTENTS support
 - Add back button to take new screenshot (!29)
-- Fix Imgur upload via CLI (!26)
 - Set up ScreenshotData after commandline parsing
 - Fix compile warning (#62)
 - Update to description and addition of donate and translate links
@@ -98,8 +97,6 @@
 
 1.9.9
 ======
-- Add link to Imgur ToS (#54)
-- Add notice about imgur (#53)
 - Add launchable tag to appdata.xml
 - Update help message for --save option
 - Add combobox with file extensions (#6)
@@ -111,7 +108,6 @@
 - Fix compilation warnings
 - Add version check for pango
 - Correctly calculate dimensions of size window (#37)
-- Add option to disable Imgur upload (#20)
 - Translation Updates:
   Albanian, Arabic, Armenian (Armenia), Basque, Belarusian, Bulgarian,
   Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish,
@@ -155,7 +151,6 @@
 
 1.9.7
 ======
-- Add warning notice to imgur upload option (Bug #15347)
 - Fix cursor capture when near screen edge (Bug #9262)
 - Improve wording (Bug #15429)
 - Allow compilation with panel 4.15
@@ -177,7 +172,6 @@
 - Update AppData file
 - Try to grab seat more than once (Bug #15320)
 - Use new xfce_gdk_screen_get_geometry if available
-- Make screenshooter-imgur-dialog.ui translatable (Bug #15254)
 - Translation Updates: Albanian, Arabic, Asturian, Basque, Belarusian,
   Bulgarian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech,
   Danish, Dutch, English (Australia), English (United Kingdom), Finnish, French,
@@ -195,7 +189,6 @@
   * Enhancements:
     - Extended save function to also take files (bug #14156, thanks to Arthur Jansen)
     - Show width and height of selection area (bug #12664, thanks to Simon)
-    - Improved imgur dialog (bug #14973, thanks to Arthur Jansen)
     - Don't save region/delay/show_mouse if region was specified from CLI
 
   * Bugs fixed:
@@ -236,9 +229,6 @@
     - Downgrade xfce4-panel dependency to 4.12
     - Updated translations (thanks to translators!)
 
-  * Bugs fixed:
-    - Use HTTPS for imgur (bug #13415)
-
 === Version 1.8.99 ===
 
   * Enhancements:
@@ -255,7 +245,6 @@
 === Version 1.8.2 ===
 
   * Enhancements:
-    - Add imgur.com as possible upload option (bug #6899)
     - Add appdate file (bug #11202)
     - Make region selection with compositing on more usable on darker
       backgrounds (bug #9592).

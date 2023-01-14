@@ -28,7 +28,3 @@ From source code repository:
     % make
     % make install
 
-### Reporting Bugs
-
-Visit the [reporting bugs](https://docs.xfce.org/apps/xfce4-screenshooter/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
-

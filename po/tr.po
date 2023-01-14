@@ -44,7 +44,6 @@ msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Ekran görüntüsü aktar
 #. Setup window
 #: ../lib/screenshooter-dialogs.c:879 ../lib/screenshooter-dialogs.c:888
 #: ../lib/screenshooter-dialogs.c:1116 ../lib/screenshooter-utils.c:148
-#: ../lib/screenshooter-utils.c:192 ../lib/screenshooter-imgur-dialog.c:128
 #: ../src/xfce4-screenshooter.desktop.in.in.h:1
 #: ../panel-plugin/screenshooter.desktop.in.h:1
 msgid "Screenshot"
@@ -60,17 +59,14 @@ msgid "_Help"
 msgstr "_Yardım"
 
 #: ../lib/screenshooter-dialogs.c:883 ../lib/screenshooter-dialogs.c:1501
-#: ../lib/screenshooter-imgur-dialog.c:130
 msgid "_Close"
 msgstr "_Kapat"
 
 #: ../lib/screenshooter-dialogs.c:892 ../lib/screenshooter-dialogs.c:1120
-#: ../lib/screenshooter-job-callbacks.c:172
 msgid "_Cancel"
 msgstr "_İptal"
 
 #: ../lib/screenshooter-dialogs.c:893 ../lib/screenshooter-dialogs.c:1121
-#: ../lib/screenshooter-job-callbacks.c:173
 msgid "_OK"
 msgstr "_Tamam"
 
@@ -199,22 +195,6 @@ msgstr "Seçili özel eylemi yürüt"
 msgid "Custom action to execute"
 msgstr "Yürütülecek özel eylem"
 
-#: ../lib/screenshooter-dialogs.c:1302
-msgid "Host on Imgur™"
-msgstr "Imgur™'da Yayımla"
-
-#: ../lib/screenshooter-dialogs.c:1306
-msgid "Host the screenshot on Imgur™, a free online image hosting service"
-msgstr "Ekran görüntüsünü ücretsiz çevrim içi resim barındırma hizmeti Imgur™'da yayımla"
-
-#: ../lib/screenshooter-dialogs.c:1318
-msgid ""
-"Watch for sensitive content, the uploaded image will be publicly\n"
-"available and there is no guarantee it can be certainly deleted.\n"
-"Xfce is NOT affiliated with nor this integration is approved by Imgur™.\n"
-"If you use this feature you must agree with Imgur™ <a href=\"https://imgur.com/tos\">Terms of Service</a>."
-msgstr "Hassas içeriğe dikkat edin, yüklenen resim halka açılacaktır ve\ntümüyle silinebileceğinin garantisi yoktur.\nXfce, Imgur™'ye bağlı değildir ve bu tümleşim onaylı değildir.\nBu özelliği kullanırsanız Imgur™ <a href=\"https://imgur.com/tos\">Hizmet Koşulları</a>nı onaylarsınız."
-
 #: ../lib/screenshooter-dialogs.c:1349
 msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Preview</span>"
 msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Ön izleme</span>"
@@ -312,153 +292,11 @@ msgstr "<b>Uygulama çalıştırılamadı.</b>\n%s"
 msgid "Error"
 msgstr "Hata"
 
-#: ../lib/screenshooter-imgur.c:133
-msgid "Upload the screenshot..."
-msgstr "Ekran görüntüsünü gönder..."
-
-#: ../lib/screenshooter-imgur.c:166
-#, c-format
-msgid "An error occurred while transferring the data to imgur."
-msgstr "Veri imgur'e aktarılırken hata oluştu."
-
-#: ../lib/screenshooter-imgur.c:231
-msgid "Imgur"
-msgstr "İmgur"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:1
-msgid "Size"
-msgstr "Boyut"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:2
-msgid "Link"
-msgstr "Bağlantı"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:3
-msgid "Tiny"
-msgstr "Minik"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:4
-msgid "Medium"
-msgstr "Orta"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:5
-msgid "Full"
-msgstr "Tam"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:6
-msgid "Copy"
-msgstr "Kopyala"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:7
-msgid "View in browser"
-msgstr "Tarayıcıda gör"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:8
-msgid "Image"
-msgstr "Resim"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:9
-msgid "Syntax"
-msgstr "Söz dizimi"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:10
-msgid "HTML"
-msgstr "HTML"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:11
-msgid "Markdown"
-msgstr "Markdown"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:12
-msgid "BBCODE"
-msgstr "BBCODE"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:13
-msgid "Code"
-msgstr "Kod"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:14
-msgid "Type"
-msgstr "Tür"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:15
-msgid "Direct image"
-msgstr "Doğrudan görüntü"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:16
-msgid "Link to full size"
-msgstr "Tam boyut bağlantısı"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:17
-msgid "Embed into code"
-msgstr "Koda ekle"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:18
-msgid "Delete"
-msgstr "Sil"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:19
-msgid ""
-"This link only shows up once. Make sure to save it if you think you might be"
-" deleting this image. We don't currently support linking images to Imgur "
-"accounts."
-msgstr "Bu bağlantı yalnızca bir kez gösterilir. Bu resmi silebileceğinizi düşünüyorsanız, kaydettiğinizden emin olun. Şu anda resimlerin Imgur hesaplarına bağlanmasını desteklemiyoruz."
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:20
-msgid "Deletion link"
-msgstr "Silme bağlantısı"
-
-#: ../lib/screenshooter-job-callbacks.c:73
-msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Durum</span>"
-
 #. Create the information dialog
-#: ../lib/screenshooter-job-callbacks.c:170
-msgid "Details about the screenshot"
-msgstr "Ekran görüntüsü hakkında ayrıntılar"
-
 #. Create the user label
-#: ../lib/screenshooter-job-callbacks.c:213
-msgid "User:"
-msgstr "Kullanıcı:"
-
-#: ../lib/screenshooter-job-callbacks.c:221
-msgid ""
-"Your user name, if you do not have one yet please create one on the Web page"
-" linked above"
-msgstr "Kullanıcı adınız, eğer henüz kullanıcı oluşturmadıysanız yukarıdaki bağlantıyı kullanarak oluşturabilirsiniz"
-
 #. Create the password label
-#: ../lib/screenshooter-job-callbacks.c:227
-msgid "Password:"
-msgstr "Parola:"
-
-#: ../lib/screenshooter-job-callbacks.c:234
-msgid "The password for the user above"
-msgstr "Yukarıdaki kullanıcı için parola"
-
 #. Create the title label
-#: ../lib/screenshooter-job-callbacks.c:240
-msgid "Title:"
-msgstr "Başlık:"
-
-#: ../lib/screenshooter-job-callbacks.c:248
-msgid ""
-"The title of the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Ekran görüntüsünün adı, resim barındırma hizmetinde ekran görüntüsünü görüntülerken kullanılacaktır"
-
 #. Create the comment label
-#: ../lib/screenshooter-job-callbacks.c:254
-msgid "Comment:"
-msgstr "Yorum:"
-
-#: ../lib/screenshooter-job-callbacks.c:262
-msgid ""
-"A comment on the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Ekran görüntüsünün açıklaması, resim barındırma hizmetinde ekran görüntüsünü görüntülerken kullanılacaktır"
-
 #: ../src/main.c:51
 msgid "Copy the screenshot to the clipboard"
 msgstr "Ekran görüntüsünü panoya kopyala"
@@ -492,10 +330,6 @@ msgstr "Ekran görüntüsünün kaydedileceği dosya yolu veya dizini png, jpg v
 #: ../src/main.c:93
 msgid "Show the saved file in the folder."
 msgstr "Kaydedilen dosyayı klasörde göster."
-
-#: ../src/main.c:98
-msgid "Host the screenshot on Imgur, a free online image hosting service"
-msgstr "Ekran görüntüsünü, ücretsiz resim barındırma servisi olan Imgur'de barındır"
 
 #: ../src/main.c:103
 msgid "Version information"
@@ -531,6 +365,5 @@ msgid ""
 "Allows you to capture the entire screen, the active window or a selected "
 "region. You can set the delay that elapses before the screenshot is taken "
 "and the action that will be done with the screenshot: save it to a PNG or "
-"JPG file, copy it to the clipboard, open it using another application, or "
-"host it on imgur, a free online image hosting service."
+"JPG file, copy it to the clipboard, open it using another application."
 msgstr "Bu uygulama tüm ekranın, etkin pencerenin veya seçilen bölgenin ekran görüntüsünü almanıza izin verir. Ekran görüntüsü almadan önce gecikme de ayarlayabilirsiniz: ekran görüntüsünü PNG veya JPG dosyasına kaydedin, panoya kopyalayın, başka uygulama kullanarak açın ya da imgur gibi ücretsiz resim barındırma servisinde saklayın."

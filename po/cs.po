@@ -39,7 +39,6 @@ msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Snímek obrazovky se pře
 #. Setup window
 #: ../lib/screenshooter-dialogs.c:879 ../lib/screenshooter-dialogs.c:888
 #: ../lib/screenshooter-dialogs.c:1116 ../lib/screenshooter-utils.c:148
-#: ../lib/screenshooter-utils.c:192 ../lib/screenshooter-imgur-dialog.c:128
 #: ../src/xfce4-screenshooter.desktop.in.in.h:1
 #: ../panel-plugin/screenshooter.desktop.in.h:1
 msgid "Screenshot"
@@ -55,17 +54,14 @@ msgid "_Help"
 msgstr "_Nápověda"
 
 #: ../lib/screenshooter-dialogs.c:883 ../lib/screenshooter-dialogs.c:1501
-#: ../lib/screenshooter-imgur-dialog.c:130
 msgid "_Close"
 msgstr "_Zavřít"
 
 #: ../lib/screenshooter-dialogs.c:892 ../lib/screenshooter-dialogs.c:1120
-#: ../lib/screenshooter-job-callbacks.c:172
 msgid "_Cancel"
 msgstr "_Zrušit"
 
 #: ../lib/screenshooter-dialogs.c:893 ../lib/screenshooter-dialogs.c:1121
-#: ../lib/screenshooter-job-callbacks.c:173
 msgid "_OK"
 msgstr "_OK"
 
@@ -194,22 +190,6 @@ msgstr "Spustí vybranou vlastní akci"
 msgid "Custom action to execute"
 msgstr "Vlastní akce ke spuštění"
 
-#: ../lib/screenshooter-dialogs.c:1302
-msgid "Host on Imgur™"
-msgstr "Hostovat v galerii Imgur™"
-
-#: ../lib/screenshooter-dialogs.c:1306
-msgid "Host the screenshot on Imgur™, a free online image hosting service"
-msgstr "Snímek obrazovky bude hostován v galerii Imgur,™ bezplatné službě pro hostování obrázků"
-
-#: ../lib/screenshooter-dialogs.c:1318
-msgid ""
-"Watch for sensitive content, the uploaded image will be publicly\n"
-"available and there is no guarantee it can be certainly deleted.\n"
-"Xfce is NOT affiliated with nor this integration is approved by Imgur™.\n"
-"If you use this feature you must agree with Imgur™ <a href=\"https://imgur.com/tos\">Terms of Service</a>."
-msgstr "Pozor na citlivý obsah, nahraný obrázek bude veřejně dostupný a není\nzaručeno, že nebude smazán. Projekt Xfce NENÍ nijak přidružen ke galerii\nImgur™ a tato integrace NENÍ schválená galerií Imgur™. Pokud chcete tuto\nfunkci používat, musíte souhlasit s <a href=\"https://imgur.com/tos\">podmínkami služby</a> galerie Imgur™."
-
 #: ../lib/screenshooter-dialogs.c:1349
 msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Preview</span>"
 msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Náhled</span>"
@@ -307,153 +287,11 @@ msgstr "<b>Aplikace nemohla být spuštěna.</b>\n%s"
 msgid "Error"
 msgstr "Chyba"
 
-#: ../lib/screenshooter-imgur.c:133
-msgid "Upload the screenshot..."
-msgstr "Uložit snímek obrazovky na web..."
-
-#: ../lib/screenshooter-imgur.c:166
-#, c-format
-msgid "An error occurred while transferring the data to imgur."
-msgstr "Při přenosu dat do galerie imgur došlo k chybě."
-
-#: ../lib/screenshooter-imgur.c:231
-msgid "Imgur"
-msgstr "Imgur"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:1
-msgid "Size"
-msgstr "Velikost"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:2
-msgid "Link"
-msgstr "Odkaz"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:3
-msgid "Tiny"
-msgstr "Malá"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:4
-msgid "Medium"
-msgstr "Střední"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:5
-msgid "Full"
-msgstr "Velká"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:6
-msgid "Copy"
-msgstr "Kopírovat"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:7
-msgid "View in browser"
-msgstr "Zobrazit v prohlížeči"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:8
-msgid "Image"
-msgstr "Obraz"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:9
-msgid "Syntax"
-msgstr "Syntaxe"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:10
-msgid "HTML"
-msgstr "HTML"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:11
-msgid "Markdown"
-msgstr "Markdown"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:12
-msgid "BBCODE"
-msgstr "BBCODE"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:13
-msgid "Code"
-msgstr "Kód"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:14
-msgid "Type"
-msgstr "Typ"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:15
-msgid "Direct image"
-msgstr "Přímý obrázek"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:16
-msgid "Link to full size"
-msgstr "Odkaz na plnou velikost"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:17
-msgid "Embed into code"
-msgstr "Vložit do kódu"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:18
-msgid "Delete"
-msgstr "Smazat"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:19
-msgid ""
-"This link only shows up once. Make sure to save it if you think you might be"
-" deleting this image. We don't currently support linking images to Imgur "
-"accounts."
-msgstr "Tento odkaz se zobrazí pouze jednou. Pokud si myslíte, že tento obrázek smažete, ujistěte se, že jste si jej uložili. Momentálně nepodporujeme přímé odkazy na obrázky v účtech služby Imgur."
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:20
-msgid "Deletion link"
-msgstr "Odkaz pro smazání"
-
-#: ../lib/screenshooter-job-callbacks.c:73
-msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Stav</span>"
-
 #. Create the information dialog
-#: ../lib/screenshooter-job-callbacks.c:170
-msgid "Details about the screenshot"
-msgstr "Podrobnosti o snímku obrazovky"
-
 #. Create the user label
-#: ../lib/screenshooter-job-callbacks.c:213
-msgid "User:"
-msgstr "Uživatel:"
-
-#: ../lib/screenshooter-job-callbacks.c:221
-msgid ""
-"Your user name, if you do not have one yet please create one on the Web page"
-" linked above"
-msgstr "Vaše uživatelské jméno. Pokud ještě nemáte účet, vytvořte si jej kliknutím na odkaz na webovou stránku výše"
-
 #. Create the password label
-#: ../lib/screenshooter-job-callbacks.c:227
-msgid "Password:"
-msgstr "Heslo:"
-
-#: ../lib/screenshooter-job-callbacks.c:234
-msgid "The password for the user above"
-msgstr "Heslo pro uživatele zmíněného výše"
-
 #. Create the title label
-#: ../lib/screenshooter-job-callbacks.c:240
-msgid "Title:"
-msgstr "Titulek:"
-
-#: ../lib/screenshooter-job-callbacks.c:248
-msgid ""
-"The title of the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Titulek snímku obrazovky, bude použit při zobrazení tohoto snímku v galerii služby pro hostování obrázků"
-
 #. Create the comment label
-#: ../lib/screenshooter-job-callbacks.c:254
-msgid "Comment:"
-msgstr "Komentář:"
-
-#: ../lib/screenshooter-job-callbacks.c:262
-msgid ""
-"A comment on the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Komentář ke snímku obrazovky, bude použit při zobrazení tohoto snímku v galerii služby pro hostování obrázků"
-
 #: ../src/main.c:51
 msgid "Copy the screenshot to the clipboard"
 msgstr "Zkopírovat snímek obrazovky do schránky"
@@ -487,10 +325,6 @@ msgstr "Cesta souboru nebo adresáře, kam bude uložen snímek obrazovky, akcep
 #: ../src/main.c:93
 msgid "Show the saved file in the folder."
 msgstr "Zobrazit uložený soubor ve složce."
-
-#: ../src/main.c:98
-msgid "Host the screenshot on Imgur, a free online image hosting service"
-msgstr "Snímek obrazovky bude hostován v galerii Imgur, bezplatné službě pro hostování obrázků"
 
 #: ../src/main.c:103
 msgid "Version information"
@@ -526,6 +360,5 @@ msgid ""
 "Allows you to capture the entire screen, the active window or a selected "
 "region. You can set the delay that elapses before the screenshot is taken "
 "and the action that will be done with the screenshot: save it to a PNG or "
-"JPG file, copy it to the clipboard, open it using another application, or "
-"host it on imgur, a free online image hosting service."
+"JPG file, copy it to the clipboard, open it using another application."
 msgstr "Umožňuje zachytit celou obrazovku, aktivní okno nebo vybranou oblast. Můžete nastavit prodlevu před pořízením snímku a akci, která se provede na snímku obrazovky: uložení snímku do souboru typu PNG nebo JPG, zkopírování do schránky, otevření v jiné aplikaci nebo hostování v online galerii imgur, bezplatné online službě pro hostování obrázků."

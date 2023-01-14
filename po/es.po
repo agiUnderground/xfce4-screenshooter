@@ -44,7 +44,6 @@ msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">La captura se transfiere 
 #. Setup window
 #: ../lib/screenshooter-dialogs.c:879 ../lib/screenshooter-dialogs.c:888
 #: ../lib/screenshooter-dialogs.c:1116 ../lib/screenshooter-utils.c:148
-#: ../lib/screenshooter-utils.c:192 ../lib/screenshooter-imgur-dialog.c:128
 #: ../src/xfce4-screenshooter.desktop.in.in.h:1
 #: ../panel-plugin/screenshooter.desktop.in.h:1
 msgid "Screenshot"
@@ -60,17 +59,14 @@ msgid "_Help"
 msgstr "A_yuda"
 
 #: ../lib/screenshooter-dialogs.c:883 ../lib/screenshooter-dialogs.c:1501
-#: ../lib/screenshooter-imgur-dialog.c:130
 msgid "_Close"
 msgstr "_Cerrar"
 
 #: ../lib/screenshooter-dialogs.c:892 ../lib/screenshooter-dialogs.c:1120
-#: ../lib/screenshooter-job-callbacks.c:172
 msgid "_Cancel"
 msgstr "_Cancelar"
 
 #: ../lib/screenshooter-dialogs.c:893 ../lib/screenshooter-dialogs.c:1121
-#: ../lib/screenshooter-job-callbacks.c:173
 msgid "_OK"
 msgstr "_Aceptar"
 
@@ -199,22 +195,6 @@ msgstr "Ejecutar la acción personalizada seleccionada"
 msgid "Custom action to execute"
 msgstr "Acción personalizada que se ejecutará"
 
-#: ../lib/screenshooter-dialogs.c:1302
-msgid "Host on Imgur™"
-msgstr "Alojar en Imgur™"
-
-#: ../lib/screenshooter-dialogs.c:1306
-msgid "Host the screenshot on Imgur™, a free online image hosting service"
-msgstr "Alojar la captura en Imgur™, un servicio gratuito de alojamiento de imágenes en línea"
-
-#: ../lib/screenshooter-dialogs.c:1318
-msgid ""
-"Watch for sensitive content, the uploaded image will be publicly\n"
-"available and there is no guarantee it can be certainly deleted.\n"
-"Xfce is NOT affiliated with nor this integration is approved by Imgur™.\n"
-"If you use this feature you must agree with Imgur™ <a href=\"https://imgur.com/tos\">Terms of Service</a>."
-msgstr "Vigile el contenido confidencial, ya que la imagen subida estará\ndisponible públicamente y no hay garantía de que se pueda\neliminar con seguridad.\nXfce no tiene relación con Imgur™ ni esta integración está aprobada\npor este servicio.\nSi usa esta función debe estar de acuerdo con los <a href=\"https://imgur.com/tos\">términos de servicio</a> de Imgur™."
-
 #: ../lib/screenshooter-dialogs.c:1349
 msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Preview</span>"
 msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Vista previa</span>"
@@ -312,153 +292,11 @@ msgstr "<b>No se ha podido ejecutar la aplicación.</b>\n%s"
 msgid "Error"
 msgstr "Error"
 
-#: ../lib/screenshooter-imgur.c:133
-msgid "Upload the screenshot..."
-msgstr "Transferir la captura de pantalla..."
-
-#: ../lib/screenshooter-imgur.c:166
-#, c-format
-msgid "An error occurred while transferring the data to imgur."
-msgstr "Se ha producido un error al transferir datos a imgur."
-
-#: ../lib/screenshooter-imgur.c:231
-msgid "Imgur"
-msgstr "Imgur"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:1
-msgid "Size"
-msgstr "Tamaño"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:2
-msgid "Link"
-msgstr "Enlace"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:3
-msgid "Tiny"
-msgstr "Diminuto"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:4
-msgid "Medium"
-msgstr "Medio"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:5
-msgid "Full"
-msgstr "Completo"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:6
-msgid "Copy"
-msgstr "Copiar"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:7
-msgid "View in browser"
-msgstr "Ver en el navegador"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:8
-msgid "Image"
-msgstr "Imagen"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:9
-msgid "Syntax"
-msgstr "Sintaxis"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:10
-msgid "HTML"
-msgstr "HTML"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:11
-msgid "Markdown"
-msgstr "Markdown"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:12
-msgid "BBCODE"
-msgstr "BBCODE"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:13
-msgid "Code"
-msgstr "Código"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:14
-msgid "Type"
-msgstr "Tipo"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:15
-msgid "Direct image"
-msgstr "Imagen directa"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:16
-msgid "Link to full size"
-msgstr "Enlace al tamaño completo"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:17
-msgid "Embed into code"
-msgstr "Incrustar en el código"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:18
-msgid "Delete"
-msgstr "Borrar"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:19
-msgid ""
-"This link only shows up once. Make sure to save it if you think you might be"
-" deleting this image. We don't currently support linking images to Imgur "
-"accounts."
-msgstr "Este enlace solo se muestra una vez. Asegúrese de guardarlo si cree que va a borrar esta imagen. Actualmente no se admite la vinculación de imágenes a cuentas de Imgur."
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:20
-msgid "Deletion link"
-msgstr "Enlace de borrado"
-
-#: ../lib/screenshooter-job-callbacks.c:73
-msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Estado</span>"
-
 #. Create the information dialog
-#: ../lib/screenshooter-job-callbacks.c:170
-msgid "Details about the screenshot"
-msgstr "Detalles de la captura"
-
 #. Create the user label
-#: ../lib/screenshooter-job-callbacks.c:213
-msgid "User:"
-msgstr "Usuario:"
-
-#: ../lib/screenshooter-job-callbacks.c:221
-msgid ""
-"Your user name, if you do not have one yet please create one on the Web page"
-" linked above"
-msgstr "Su nombre de usuario. Si no tiene uno, créelo en la página web enlazada"
-
 #. Create the password label
-#: ../lib/screenshooter-job-callbacks.c:227
-msgid "Password:"
-msgstr "Contraseña:"
-
-#: ../lib/screenshooter-job-callbacks.c:234
-msgid "The password for the user above"
-msgstr "La contraseña para la cuenta de usuario"
-
 #. Create the title label
-#: ../lib/screenshooter-job-callbacks.c:240
-msgid "Title:"
-msgstr "Título:"
-
-#: ../lib/screenshooter-job-callbacks.c:248
-msgid ""
-"The title of the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "El título de la captura de pantalla. Se usará al mostrar la captura en el servicio de alojamiento de imágenes"
-
 #. Create the comment label
-#: ../lib/screenshooter-job-callbacks.c:254
-msgid "Comment:"
-msgstr "Comentario:"
-
-#: ../lib/screenshooter-job-callbacks.c:262
-msgid ""
-"A comment on the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Un comentario sobre la captura de pantalla. Se usará al mostrar la captura en el servicio de alojamiento de imágenes"
-
 #: ../src/main.c:51
 msgid "Copy the screenshot to the clipboard"
 msgstr "Copiar la captura en el portapapeles"
@@ -492,10 +330,6 @@ msgstr "Ruta del archivo o la carpeta donde se guardará la captura, que acepta 
 #: ../src/main.c:93
 msgid "Show the saved file in the folder."
 msgstr "Mostrar el archivo guardado en la carpeta."
-
-#: ../src/main.c:98
-msgid "Host the screenshot on Imgur, a free online image hosting service"
-msgstr "Alojar la captura en Imgur, un servicio gratuito de alojamiento de imágenes en línea"
 
 #: ../src/main.c:103
 msgid "Version information"
@@ -531,6 +365,5 @@ msgid ""
 "Allows you to capture the entire screen, the active window or a selected "
 "region. You can set the delay that elapses before the screenshot is taken "
 "and the action that will be done with the screenshot: save it to a PNG or "
-"JPG file, copy it to the clipboard, open it using another application, or "
-"host it on imgur, a free online image hosting service."
+"JPG file, copy it to the clipboard, open it using another application."
 msgstr "Permite capturar toda la pantalla, la ventana activa o un área seleccionada. Puede configurar el tiempo que transcurre antes de realizar la captura y la acción que se ejecutará después: guardarla en un archivo PNG o JPG, copiarla en el portapapeles, abrirla con otra aplicación o alojarla en Imgur, un servicio gratuito de alojamiento de imágenes en línea."

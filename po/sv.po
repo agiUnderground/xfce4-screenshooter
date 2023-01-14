@@ -40,7 +40,6 @@ msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Skärmbilden överförs t
 #. Setup window
 #: ../lib/screenshooter-dialogs.c:879 ../lib/screenshooter-dialogs.c:888
 #: ../lib/screenshooter-dialogs.c:1116 ../lib/screenshooter-utils.c:148
-#: ../lib/screenshooter-utils.c:192 ../lib/screenshooter-imgur-dialog.c:128
 #: ../src/xfce4-screenshooter.desktop.in.in.h:1
 #: ../panel-plugin/screenshooter.desktop.in.h:1
 msgid "Screenshot"
@@ -56,17 +55,14 @@ msgid "_Help"
 msgstr "_Hjälp"
 
 #: ../lib/screenshooter-dialogs.c:883 ../lib/screenshooter-dialogs.c:1501
-#: ../lib/screenshooter-imgur-dialog.c:130
 msgid "_Close"
 msgstr "_Stäng"
 
 #: ../lib/screenshooter-dialogs.c:892 ../lib/screenshooter-dialogs.c:1120
-#: ../lib/screenshooter-job-callbacks.c:172
 msgid "_Cancel"
 msgstr "_Avbryt"
 
 #: ../lib/screenshooter-dialogs.c:893 ../lib/screenshooter-dialogs.c:1121
-#: ../lib/screenshooter-job-callbacks.c:173
 msgid "_OK"
 msgstr "_OK"
 
@@ -195,22 +191,6 @@ msgstr "Utför den valda anpassade åtgärden"
 msgid "Custom action to execute"
 msgstr "Anpassad åtgärd att utföra"
 
-#: ../lib/screenshooter-dialogs.c:1302
-msgid "Host on Imgur™"
-msgstr "Lägg upp på Imgur"
-
-#: ../lib/screenshooter-dialogs.c:1306
-msgid "Host the screenshot on Imgur™, a free online image hosting service"
-msgstr "Lägg upp skärmbilden på Imgur™, en gratis bildlagringstjänst online"
-
-#: ../lib/screenshooter-dialogs.c:1318
-msgid ""
-"Watch for sensitive content, the uploaded image will be publicly\n"
-"available and there is no guarantee it can be certainly deleted.\n"
-"Xfce is NOT affiliated with nor this integration is approved by Imgur™.\n"
-"If you use this feature you must agree with Imgur™ <a href=\"https://imgur.com/tos\">Terms of Service</a>."
-msgstr "Håll utkik efter känsligt innehåll, den uppladdade bilden blir offentligt\ntillgänglig och det finns ingen garanti för att den säkert kan raderas\nXFCE är inte officiellt ansluten till Imgur och denna integration är icke officiellt godkänd av Imgur™\nOm du använder den här funktionen måste du acceptera Imgurs ™ <a href=\"https://imgur.com/tos\">Användarvillkor</a>"
-
 #: ../lib/screenshooter-dialogs.c:1349
 msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Preview</span>"
 msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Förhandsvisning</span>"
@@ -308,153 +288,11 @@ msgstr "<b>Programmet kunde inte startas.</b>\n%s"
 msgid "Error"
 msgstr "Fel"
 
-#: ../lib/screenshooter-imgur.c:133
-msgid "Upload the screenshot..."
-msgstr "Lägg upp skärmbilden..."
-
-#: ../lib/screenshooter-imgur.c:166
-#, c-format
-msgid "An error occurred while transferring the data to imgur."
-msgstr "Ett fel inträffade då data överfördes till imgur."
-
-#: ../lib/screenshooter-imgur.c:231
-msgid "Imgur"
-msgstr "Imgur"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:1
-msgid "Size"
-msgstr "Storlek"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:2
-msgid "Link"
-msgstr "Länk"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:3
-msgid "Tiny"
-msgstr "Liten"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:4
-msgid "Medium"
-msgstr "Mellan"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:5
-msgid "Full"
-msgstr "Hel"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:6
-msgid "Copy"
-msgstr "Kopiera"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:7
-msgid "View in browser"
-msgstr "Visa i bläddrare"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:8
-msgid "Image"
-msgstr "Bild"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:9
-msgid "Syntax"
-msgstr "Syntax"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:10
-msgid "HTML"
-msgstr "HTML"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:11
-msgid "Markdown"
-msgstr "Märkning"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:12
-msgid "BBCODE"
-msgstr "BBCODE"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:13
-msgid "Code"
-msgstr "Kod"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:14
-msgid "Type"
-msgstr "Typ"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:15
-msgid "Direct image"
-msgstr "Direkt bild"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:16
-msgid "Link to full size"
-msgstr "Länk till full storlek"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:17
-msgid "Embed into code"
-msgstr "Bädda in i kod"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:18
-msgid "Delete"
-msgstr "Ta bort"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:19
-msgid ""
-"This link only shows up once. Make sure to save it if you think you might be"
-" deleting this image. We don't currently support linking images to Imgur "
-"accounts."
-msgstr "Den här länken visas bara en gång. Se till att spara den om du tror att du kommer att ta bort den här bilden. Vi har för närvarande inget stöd för att länka bilder till Imgur-konton."
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:20
-msgid "Deletion link"
-msgstr "Raderingslänk"
-
-#: ../lib/screenshooter-job-callbacks.c:73
-msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-
 #. Create the information dialog
-#: ../lib/screenshooter-job-callbacks.c:170
-msgid "Details about the screenshot"
-msgstr "Detaljer om skärmbilden"
-
 #. Create the user label
-#: ../lib/screenshooter-job-callbacks.c:213
-msgid "User:"
-msgstr "Användare:"
-
-#: ../lib/screenshooter-job-callbacks.c:221
-msgid ""
-"Your user name, if you do not have one yet please create one on the Web page"
-" linked above"
-msgstr "Ditt användarnamn, om du inte redan har ett så skapa ett på webbsidan länkad ovan"
-
 #. Create the password label
-#: ../lib/screenshooter-job-callbacks.c:227
-msgid "Password:"
-msgstr "Lösenord:"
-
-#: ../lib/screenshooter-job-callbacks.c:234
-msgid "The password for the user above"
-msgstr "Lösenordet för användaren ovan"
-
 #. Create the title label
-#: ../lib/screenshooter-job-callbacks.c:240
-msgid "Title:"
-msgstr "Namn:"
-
-#: ../lib/screenshooter-job-callbacks.c:248
-msgid ""
-"The title of the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Skärmbildens namn, det kommer att användas då skärmbilden visas på bildlagringstjänsten"
-
 #. Create the comment label
-#: ../lib/screenshooter-job-callbacks.c:254
-msgid "Comment:"
-msgstr "Kommentar:"
-
-#: ../lib/screenshooter-job-callbacks.c:262
-msgid ""
-"A comment on the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "En kommentar om skärmbilden, den kommer att användas då skärmbilden visas på bildlagringstjänsten"
-
 #: ../src/main.c:51
 msgid "Copy the screenshot to the clipboard"
 msgstr "Kopiera skärmbilden till urklippshanteraren"
@@ -488,10 +326,6 @@ msgstr "Filsökväg eller katalog vart skärmbild kommer att sparas, accepterar 
 #: ../src/main.c:93
 msgid "Show the saved file in the folder."
 msgstr "Visa den sparade filen i en mapp"
-
-#: ../src/main.c:98
-msgid "Host the screenshot on Imgur, a free online image hosting service"
-msgstr "Lägg upp skärmbilden på Imgur, en gratis bildlagringstjänst online"
 
 #: ../src/main.c:103
 msgid "Version information"
@@ -527,6 +361,5 @@ msgid ""
 "Allows you to capture the entire screen, the active window or a selected "
 "region. You can set the delay that elapses before the screenshot is taken "
 "and the action that will be done with the screenshot: save it to a PNG or "
-"JPG file, copy it to the clipboard, open it using another application, or "
-"host it on imgur, a free online image hosting service."
+"JPG file, copy it to the clipboard, open it using another application."
 msgstr "Tillåter dig att fånga hela skärmen, det aktiva fönstret eller en vald region. Du kan ställa in fördröjningen som går innan skärmdumpen görs och åtgärden som ska göras med skärmdumpen: spara den i en PNG- eller JPG -fil, kopiera den till Urklipp, öppna den med ett annat program eller ladda upp den på imgur, en gratis bildhostingstjänst online."

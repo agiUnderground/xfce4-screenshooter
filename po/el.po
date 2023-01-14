@@ -41,7 +41,6 @@ msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Το στιγμιότυπ
 #. Setup window
 #: ../lib/screenshooter-dialogs.c:879 ../lib/screenshooter-dialogs.c:888
 #: ../lib/screenshooter-dialogs.c:1116 ../lib/screenshooter-utils.c:148
-#: ../lib/screenshooter-utils.c:192 ../lib/screenshooter-imgur-dialog.c:128
 #: ../src/xfce4-screenshooter.desktop.in.in.h:1
 #: ../panel-plugin/screenshooter.desktop.in.h:1
 msgid "Screenshot"
@@ -57,17 +56,14 @@ msgid "_Help"
 msgstr "_Βοήθεια"
 
 #: ../lib/screenshooter-dialogs.c:883 ../lib/screenshooter-dialogs.c:1501
-#: ../lib/screenshooter-imgur-dialog.c:130
 msgid "_Close"
 msgstr "_Κλείσιμο"
 
 #: ../lib/screenshooter-dialogs.c:892 ../lib/screenshooter-dialogs.c:1120
-#: ../lib/screenshooter-job-callbacks.c:172
 msgid "_Cancel"
 msgstr "Α_κύρωση"
 
 #: ../lib/screenshooter-dialogs.c:893 ../lib/screenshooter-dialogs.c:1121
-#: ../lib/screenshooter-job-callbacks.c:173
 msgid "_OK"
 msgstr "_ΟΚ"
 
@@ -196,22 +192,6 @@ msgstr ""
 msgid "Custom action to execute"
 msgstr ""
 
-#: ../lib/screenshooter-dialogs.c:1302
-msgid "Host on Imgur™"
-msgstr "Ανέβασμα στο Imgur™"
-
-#: ../lib/screenshooter-dialogs.c:1306
-msgid "Host the screenshot on Imgur™, a free online image hosting service"
-msgstr "Ανέβασμα στο Imgur™, μια δωρεάν διαδικτυακή υπηρεσία φιλοξενίας εικόνων"
-
-#: ../lib/screenshooter-dialogs.c:1318
-msgid ""
-"Watch for sensitive content, the uploaded image will be publicly\n"
-"available and there is no guarantee it can be certainly deleted.\n"
-"Xfce is NOT affiliated with nor this integration is approved by Imgur™.\n"
-"If you use this feature you must agree with Imgur™ <a href=\"https://imgur.com/tos\">Terms of Service</a>."
-msgstr "Προσοχή για ευαίσθητο περιεχόμενο, η ανεβασμένη εικόνα θα είναι\nδημόσια προσβάσιμη και δεν υπάρχει εγγύηση ότι μπορεί να διαγραφεί\nμε σιγουριά. Το Xfce ΔΕΝ σχετίζεται με το Imgur™ και αυτή η λειτουργία\nδεν είναι εγκεκριμένη από το Imgur™<a href=\"https://imgur.com/tos\">Terms of Service</a>."
-
 #: ../lib/screenshooter-dialogs.c:1349
 msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Preview</span>"
 msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Προεσκόπιση</span>"
@@ -309,153 +289,11 @@ msgstr "<b>Αυτή η εφαρμογή δεν ήταν δυνατό να εκκ
 msgid "Error"
 msgstr "Σφάλμα"
 
-#: ../lib/screenshooter-imgur.c:133
-msgid "Upload the screenshot..."
-msgstr "Ανέβασμα του στιγμιότυπου..."
-
-#: ../lib/screenshooter-imgur.c:166
-#, c-format
-msgid "An error occurred while transferring the data to imgur."
-msgstr "Ένα σφάλμα συνέβη κατά τη μεταφορά δεδομένων στο imgur."
-
-#: ../lib/screenshooter-imgur.c:231
-msgid "Imgur"
-msgstr "Imgur"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:1
-msgid "Size"
-msgstr "Μέγεθος"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:2
-msgid "Link"
-msgstr "Σύνδεσμος"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:3
-msgid "Tiny"
-msgstr "Μικρό"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:4
-msgid "Medium"
-msgstr "Μεσαίο"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:5
-msgid "Full"
-msgstr "Πλήρες"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:6
-msgid "Copy"
-msgstr "Αντιγραφή"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:7
-msgid "View in browser"
-msgstr "Εμφάνιση στον περιηγητή"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:8
-msgid "Image"
-msgstr "Εικόνα"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:9
-msgid "Syntax"
-msgstr "Συντακτικό"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:10
-msgid "HTML"
-msgstr "HTML"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:11
-msgid "Markdown"
-msgstr "Markdown"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:12
-msgid "BBCODE"
-msgstr "BBCODE"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:13
-msgid "Code"
-msgstr "Code"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:14
-msgid "Type"
-msgstr "Τύπος"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:15
-msgid "Direct image"
-msgstr "Άμεση εικόνα"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:16
-msgid "Link to full size"
-msgstr "Σύνδεσμος σε πλήρες μέγεθος"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:17
-msgid "Embed into code"
-msgstr "Ενσωμάτωση σε κώδικα"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:18
-msgid "Delete"
-msgstr "Διαγραφή"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:19
-msgid ""
-"This link only shows up once. Make sure to save it if you think you might be"
-" deleting this image. We don't currently support linking images to Imgur "
-"accounts."
-msgstr "Ο σύνδεσμος εμφανίζεται μόνο μια φορά. Εξασφαλίστε την αποθήκευσή του αν νομίζετε ότι ενδέχεται να διαγράψετε αυτήν την εικόνα. Δεν υποστηρίζουμε προς το παρόν σύνδεση εικόνων σε λογαριασμούς Imgur."
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:20
-msgid "Deletion link"
-msgstr "Σύνδεσμος διαγραφής"
-
-#: ../lib/screenshooter-job-callbacks.c:73
-msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Κατάσταση</span>"
-
 #. Create the information dialog
-#: ../lib/screenshooter-job-callbacks.c:170
-msgid "Details about the screenshot"
-msgstr "Λεπτομέρειες σχετικά με το στιγμιότυπο οθόνης"
-
 #. Create the user label
-#: ../lib/screenshooter-job-callbacks.c:213
-msgid "User:"
-msgstr "Χρήστης:"
-
-#: ../lib/screenshooter-job-callbacks.c:221
-msgid ""
-"Your user name, if you do not have one yet please create one on the Web page"
-" linked above"
-msgstr "Το όνομα χρήστη σας, αν δεν έχετε ακόμα ένα, δημιουργήστε ένα στην παραπάνω ιστοσελίδα"
-
 #. Create the password label
-#: ../lib/screenshooter-job-callbacks.c:227
-msgid "Password:"
-msgstr "Κωδικός:"
-
-#: ../lib/screenshooter-job-callbacks.c:234
-msgid "The password for the user above"
-msgstr "Ο κωδικός χρήστη από πάνω"
-
 #. Create the title label
-#: ../lib/screenshooter-job-callbacks.c:240
-msgid "Title:"
-msgstr "Τίτλος:"
-
-#: ../lib/screenshooter-job-callbacks.c:248
-msgid ""
-"The title of the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Ο τίτλος του στιγμιότυπου οθόνης, θα χρησιμοποιηθεί κατά την εμφάνιση του στιγμιότυπου στην υπηρεσία φιλοξενίας εικόνων"
-
 #. Create the comment label
-#: ../lib/screenshooter-job-callbacks.c:254
-msgid "Comment:"
-msgstr "Σχόλιο:"
-
-#: ../lib/screenshooter-job-callbacks.c:262
-msgid ""
-"A comment on the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Ένα σχόλιο στο στιγμιότυπο οθόνης, θα χρησιμοποιηθεί κατά την προβολή του στιγμιότυπου οθόνης στην υπηρεσία φιλοξενίας εικόνων"
-
 #: ../src/main.c:51
 msgid "Copy the screenshot to the clipboard"
 msgstr "Αντιγραφή στιγμιοτύπου οθόνης στο πρόχειρο"
@@ -489,10 +327,6 @@ msgstr ""
 #: ../src/main.c:93
 msgid "Show the saved file in the folder."
 msgstr ""
-
-#: ../src/main.c:98
-msgid "Host the screenshot on Imgur, a free online image hosting service"
-msgstr "Ανέβασμα στο Imgur, μια δωρεάν διαδικτυακή υπηρεσία φιλοξενίας εικόνων"
 
 #: ../src/main.c:103
 msgid "Version information"
@@ -528,6 +362,5 @@ msgid ""
 "Allows you to capture the entire screen, the active window or a selected "
 "region. You can set the delay that elapses before the screenshot is taken "
 "and the action that will be done with the screenshot: save it to a PNG or "
-"JPG file, copy it to the clipboard, open it using another application, or "
-"host it on imgur, a free online image hosting service."
+"JPG file, copy it to the clipboard, open it using another application."
 msgstr "Σας επιτρέπει να καταγράψετε ολόκληρη την οθόνη, το ενεργό παράθυρο ή μια επιλεγμένη περιοχή. Μπορείτε να ρυθμίσετε την χρονική καθυστέρηση πριν από την λήψη του στιγμιότυπου και την ενέργεια που θα γίνει με το στιγμιότυπο οθόνης: αποθήκευση σε αρχείο PNG ή JPG, αντιγραφή στο πρόχειρο, άνοιγμα χρησιμοποιώντας μια άλλη εφαρμογή ή ανέβασμα στο imgur, μια δωρεάν διαδικτυακή υπηρεσία φιλοξενίας εικόνων."

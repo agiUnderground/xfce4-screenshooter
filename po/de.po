@@ -44,7 +44,6 @@ msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Das Bildschirmfoto wird �
 #. Setup window
 #: ../lib/screenshooter-dialogs.c:879 ../lib/screenshooter-dialogs.c:888
 #: ../lib/screenshooter-dialogs.c:1116 ../lib/screenshooter-utils.c:148
-#: ../lib/screenshooter-utils.c:192 ../lib/screenshooter-imgur-dialog.c:128
 #: ../src/xfce4-screenshooter.desktop.in.in.h:1
 #: ../panel-plugin/screenshooter.desktop.in.h:1
 msgid "Screenshot"
@@ -60,17 +59,14 @@ msgid "_Help"
 msgstr "_Hilfe"
 
 #: ../lib/screenshooter-dialogs.c:883 ../lib/screenshooter-dialogs.c:1501
-#: ../lib/screenshooter-imgur-dialog.c:130
 msgid "_Close"
 msgstr "S_chließen"
 
 #: ../lib/screenshooter-dialogs.c:892 ../lib/screenshooter-dialogs.c:1120
-#: ../lib/screenshooter-job-callbacks.c:172
 msgid "_Cancel"
 msgstr "_Abbruch"
 
 #: ../lib/screenshooter-dialogs.c:893 ../lib/screenshooter-dialogs.c:1121
-#: ../lib/screenshooter-job-callbacks.c:173
 msgid "_OK"
 msgstr "_Bestätigen"
 
@@ -199,22 +195,6 @@ msgstr "Ausführen der ausgewählten benutzerdefinierten Aktion"
 msgid "Custom action to execute"
 msgstr "Benutzerdefinierte Aktion zur Ausführung"
 
-#: ../lib/screenshooter-dialogs.c:1302
-msgid "Host on Imgur™"
-msgstr "Auf Imgur™ hochladen"
-
-#: ../lib/screenshooter-dialogs.c:1306
-msgid "Host the screenshot on Imgur™, a free online image hosting service"
-msgstr "Bildschirmfoto auf Imgur™ hochladen, einem kostenlosen Bilderdienst"
-
-#: ../lib/screenshooter-dialogs.c:1318
-msgid ""
-"Watch for sensitive content, the uploaded image will be publicly\n"
-"available and there is no guarantee it can be certainly deleted.\n"
-"Xfce is NOT affiliated with nor this integration is approved by Imgur™.\n"
-"If you use this feature you must agree with Imgur™ <a href=\"https://imgur.com/tos\">Terms of Service</a>."
-msgstr "Achten Sie auf vertrauliche Inhalte, das hochgeladene Bild wird öffentlich\nverfügbar und es gibt keine Garantie, dass es sicher gelöscht werden kann.\nXfce ist NICHT mit Imgur™ verbunden, noch ist diese Integration von Imgur™ genehmigt.\nWenn Sie diese Funktion nutzen, müssen Sie den <a href=\"https://imgur.com/tos\">Terms of Service</a> von Imgur™ zustimmen."
-
 #: ../lib/screenshooter-dialogs.c:1349
 msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Preview</span>"
 msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Vorschau</span>"
@@ -312,153 +292,11 @@ msgstr "<b>Die Anwendung konnte nicht gestartet werden.</b>\n%s"
 msgid "Error"
 msgstr "Fehler"
 
-#: ../lib/screenshooter-imgur.c:133
-msgid "Upload the screenshot..."
-msgstr "Bildschirmfoto hochladen …"
-
-#: ../lib/screenshooter-imgur.c:166
-#, c-format
-msgid "An error occurred while transferring the data to imgur."
-msgstr "Beim Übertragen der Daten zu Imgur ist ein Fehler aufgetreten."
-
-#: ../lib/screenshooter-imgur.c:231
-msgid "Imgur"
-msgstr "Imgur"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:1
-msgid "Size"
-msgstr "Größe"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:2
-msgid "Link"
-msgstr "Verknüpfung"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:3
-msgid "Tiny"
-msgstr "Winzig"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:4
-msgid "Medium"
-msgstr "Mittel"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:5
-msgid "Full"
-msgstr "Voll"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:6
-msgid "Copy"
-msgstr "Kopieren"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:7
-msgid "View in browser"
-msgstr "Im Browser anzeigen"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:8
-msgid "Image"
-msgstr "Bild"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:9
-msgid "Syntax"
-msgstr "Syntax"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:10
-msgid "HTML"
-msgstr "HTML"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:11
-msgid "Markdown"
-msgstr "Markdown"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:12
-msgid "BBCODE"
-msgstr "BBCODE"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:13
-msgid "Code"
-msgstr "Code"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:14
-msgid "Type"
-msgstr "Typ"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:15
-msgid "Direct image"
-msgstr "Direktbild"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:16
-msgid "Link to full size"
-msgstr "Verknüpfung zur Originalgröße"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:17
-msgid "Embed into code"
-msgstr "Einbettung in den Quellcode"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:18
-msgid "Delete"
-msgstr "Entfernen"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:19
-msgid ""
-"This link only shows up once. Make sure to save it if you think you might be"
-" deleting this image. We don't currently support linking images to Imgur "
-"accounts."
-msgstr "Dieser Link wird nur einmal angezeigt. Achten Sie darauf ihn speichern, wenn Sie dieses Bild zukünftig löschen möchten. Wir unterstützen derzeit keine Verknüpfung von Bildern mit Imgur-Konten."
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:20
-msgid "Deletion link"
-msgstr "Löschverknüpfung"
-
-#: ../lib/screenshooter-job-callbacks.c:73
-msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-
 #. Create the information dialog
-#: ../lib/screenshooter-job-callbacks.c:170
-msgid "Details about the screenshot"
-msgstr "Details über das Bildschirmfoto"
-
 #. Create the user label
-#: ../lib/screenshooter-job-callbacks.c:213
-msgid "User:"
-msgstr "Benutzer:"
-
-#: ../lib/screenshooter-job-callbacks.c:221
-msgid ""
-"Your user name, if you do not have one yet please create one on the Web page"
-" linked above"
-msgstr "Ihr Benutzername, falls Sie noch keinen haben, erstellen Sie bitte einen auf der oben verlinkten Webseite."
-
 #. Create the password label
-#: ../lib/screenshooter-job-callbacks.c:227
-msgid "Password:"
-msgstr "Passwort:"
-
-#: ../lib/screenshooter-job-callbacks.c:234
-msgid "The password for the user above"
-msgstr "Das Passwort für den oberen Benutzer"
-
 #. Create the title label
-#: ../lib/screenshooter-job-callbacks.c:240
-msgid "Title:"
-msgstr "Titel:"
-
-#: ../lib/screenshooter-job-callbacks.c:248
-msgid ""
-"The title of the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Der Titel des Bildschirmfotos, er wird bei der Anzeige des Bildschirmfotos auf dem Image Hosting Service verwendet."
-
 #. Create the comment label
-#: ../lib/screenshooter-job-callbacks.c:254
-msgid "Comment:"
-msgstr "Kommentar:"
-
-#: ../lib/screenshooter-job-callbacks.c:262
-msgid ""
-"A comment on the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "Ein Kommentar zum Bildschirmfoto, der bei der Anzeige des Bildschirmfotos auf dem Image Hosting Service verwendet wird."
-
 #: ../src/main.c:51
 msgid "Copy the screenshot to the clipboard"
 msgstr "Bildschirmfoto in die Zwischenablage kopieren"
@@ -492,10 +330,6 @@ msgstr "Dateipfad oder Verzeichnis, in dem das Bildschirmfoto gespeichert wird, 
 #: ../src/main.c:93
 msgid "Show the saved file in the folder."
 msgstr "Zeige die gespeicherte Datei im Ordner an."
-
-#: ../src/main.c:98
-msgid "Host the screenshot on Imgur, a free online image hosting service"
-msgstr "Auf Imgur hochladen, einem kostenlosen Bilderdienst"
 
 #: ../src/main.c:103
 msgid "Version information"
@@ -531,6 +365,5 @@ msgid ""
 "Allows you to capture the entire screen, the active window or a selected "
 "region. You can set the delay that elapses before the screenshot is taken "
 "and the action that will be done with the screenshot: save it to a PNG or "
-"JPG file, copy it to the clipboard, open it using another application, or "
-"host it on imgur, a free online image hosting service."
+"JPG file, copy it to the clipboard, open it using another application."
 msgstr "Ermöglicht die Aufnahme des gesamten Bildschirms, des aktiven Fensters oder eines ausgewählten Bereichs. Sie können die Verzögerung einstellen, die vergeht, bevor das Bildschirmfoto gemacht wird, und die Aktion, die mit dem Bildschirmfoto durchgeführt wird: Speichern Sie es in eine PNG- oder JPG-Datei, kopieren Sie es in die Zwischenablage, öffnen Sie es mit einer anderen Anwendung oder hosten Sie es auf imgur, einem kostenlosen Online-Bildhosting-Service."

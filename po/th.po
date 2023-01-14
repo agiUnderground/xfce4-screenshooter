@@ -37,7 +37,6 @@ msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">กำลังถ่า�
 #. Setup window
 #: ../lib/screenshooter-dialogs.c:879 ../lib/screenshooter-dialogs.c:888
 #: ../lib/screenshooter-dialogs.c:1116 ../lib/screenshooter-utils.c:148
-#: ../lib/screenshooter-utils.c:192 ../lib/screenshooter-imgur-dialog.c:128
 #: ../src/xfce4-screenshooter.desktop.in.in.h:1
 #: ../panel-plugin/screenshooter.desktop.in.h:1
 msgid "Screenshot"
@@ -53,17 +52,14 @@ msgid "_Help"
 msgstr "_วิธีใช้"
 
 #: ../lib/screenshooter-dialogs.c:883 ../lib/screenshooter-dialogs.c:1501
-#: ../lib/screenshooter-imgur-dialog.c:130
 msgid "_Close"
 msgstr "ปิ_ด"
 
 #: ../lib/screenshooter-dialogs.c:892 ../lib/screenshooter-dialogs.c:1120
-#: ../lib/screenshooter-job-callbacks.c:172
 msgid "_Cancel"
 msgstr "_ยกเลิก"
 
 #: ../lib/screenshooter-dialogs.c:893 ../lib/screenshooter-dialogs.c:1121
-#: ../lib/screenshooter-job-callbacks.c:173
 msgid "_OK"
 msgstr "_ตกลง"
 
@@ -192,22 +188,6 @@ msgstr ""
 msgid "Custom action to execute"
 msgstr ""
 
-#: ../lib/screenshooter-dialogs.c:1302
-msgid "Host on Imgur™"
-msgstr "โฮสต์ที่ Imgur™"
-
-#: ../lib/screenshooter-dialogs.c:1306
-msgid "Host the screenshot on Imgur™, a free online image hosting service"
-msgstr "โฮสต์ภาพหน้าจอไว้ที่ Imgur™ ซึ่งเป็นบริการโฮสต์ภาพออนไลน์ฟรี"
-
-#: ../lib/screenshooter-dialogs.c:1318
-msgid ""
-"Watch for sensitive content, the uploaded image will be publicly\n"
-"available and there is no guarantee it can be certainly deleted.\n"
-"Xfce is NOT affiliated with nor this integration is approved by Imgur™.\n"
-"If you use this feature you must agree with Imgur™ <a href=\"https://imgur.com/tos\">Terms of Service</a>."
-msgstr "โปรดระวังเนื้อหาที่อ่อนไหว ภาพที่อัปโหลดจะปรากฏต่อสาธารณะ\nและไม่มีการรับประกันว่าจะสามารถลบได้หรือไม่\nXfce ไม่ได้มีส่วนเกี่ยวข้องกับ Imgur™ และการเชื่อมรวมนี้ก็ไม่ได้ผ่านการรับรองโดย Imgur™\nถ้าคุณใช้ความสามารถนี้ คุณต้องยอมรับ <a href=\"https://imgur.com/tos\">เงื่อนไขการให้บริการ</a> ของ Imgur™"
-
 #: ../lib/screenshooter-dialogs.c:1349
 msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Preview</span>"
 msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">ภาพตัวอย่าง</span>"
@@ -305,153 +285,11 @@ msgstr "<b>ไม่สามารถเรียกโปรแกรมทำ
 msgid "Error"
 msgstr "ข้อผิดพลาด"
 
-#: ../lib/screenshooter-imgur.c:133
-msgid "Upload the screenshot..."
-msgstr "อัปโหลดภาพหน้าจอ..."
-
-#: ../lib/screenshooter-imgur.c:166
-#, c-format
-msgid "An error occurred while transferring the data to imgur."
-msgstr "เกิดข้อผิดพลาดขณะถ่ายโอนข้อมูลไปที่ imgur"
-
-#: ../lib/screenshooter-imgur.c:231
-msgid "Imgur"
-msgstr "Imgur"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:1
-msgid "Size"
-msgstr "ขนาด"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:2
-msgid "Link"
-msgstr "ลิงก์"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:3
-msgid "Tiny"
-msgstr "เล็ก"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:4
-msgid "Medium"
-msgstr "กลาง"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:5
-msgid "Full"
-msgstr "เต็ม"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:6
-msgid "Copy"
-msgstr "คัดลอก"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:7
-msgid "View in browser"
-msgstr "ดูในเบราว์เซอร์"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:8
-msgid "Image"
-msgstr "รูปภาพ"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:9
-msgid "Syntax"
-msgstr "ไวยากรณ์"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:10
-msgid "HTML"
-msgstr "HTML"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:11
-msgid "Markdown"
-msgstr "Markdown"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:12
-msgid "BBCODE"
-msgstr "BBCODE"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:13
-msgid "Code"
-msgstr "รหัส"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:14
-msgid "Type"
-msgstr "ชนิด"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:15
-msgid "Direct image"
-msgstr "รูปภาพโดยตรง"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:16
-msgid "Link to full size"
-msgstr "ลิงก์ไปยังภาพเต็ม"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:17
-msgid "Embed into code"
-msgstr "ฝังในโค้ด"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:18
-msgid "Delete"
-msgstr "ลบ"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:19
-msgid ""
-"This link only shows up once. Make sure to save it if you think you might be"
-" deleting this image. We don't currently support linking images to Imgur "
-"accounts."
-msgstr "ลิงก์นี้จะแสดงเพียงครั้งเดียวเท่านั้น โปรดเก็บบันทึกไว้ให้ดีถ้าคุณคิดว่าจะต้องลบรูปภาพนี้ในอนาคต ขณะนี้เรายังไม่รองรับการเชื่อมโยงรูปภาพกับบัญชี Imgur"
-
-#: ../lib/screenshooter-imgur-dialog.ui.h:20
-msgid "Deletion link"
-msgstr "ลิงก์สำหรับลบ"
-
-#: ../lib/screenshooter-job-callbacks.c:73
-msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
-msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">สถานะ</span>"
-
 #. Create the information dialog
-#: ../lib/screenshooter-job-callbacks.c:170
-msgid "Details about the screenshot"
-msgstr "รายละเอียดเกี่ยวกับภาพหน้าจอ"
-
 #. Create the user label
-#: ../lib/screenshooter-job-callbacks.c:213
-msgid "User:"
-msgstr "ชื่อผู้ใช้:"
-
-#: ../lib/screenshooter-job-callbacks.c:221
-msgid ""
-"Your user name, if you do not have one yet please create one on the Web page"
-" linked above"
-msgstr "ชื่อผู้ใช้ของคุณ ถ้าคุณยังไม่มีบัญชี กรุณาสร้างบัญชีจากหน้าเว็บในลิงก์ข้างต้น"
-
 #. Create the password label
-#: ../lib/screenshooter-job-callbacks.c:227
-msgid "Password:"
-msgstr "รหัสผ่าน:"
-
-#: ../lib/screenshooter-job-callbacks.c:234
-msgid "The password for the user above"
-msgstr "รหัสผ่านสำหรับผู้ใช้ข้างต้น"
-
 #. Create the title label
-#: ../lib/screenshooter-job-callbacks.c:240
-msgid "Title:"
-msgstr "ชื่อภาพ:"
-
-#: ../lib/screenshooter-job-callbacks.c:248
-msgid ""
-"The title of the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "ชื่อของภาพหน้าจอ ซึ่งจะใช้ในการแสดงภาพหน้าจอบนเว็บโฮสต์รูปภาพ"
-
 #. Create the comment label
-#: ../lib/screenshooter-job-callbacks.c:254
-msgid "Comment:"
-msgstr "หมายเหตุ:"
-
-#: ../lib/screenshooter-job-callbacks.c:262
-msgid ""
-"A comment on the screenshot, it will be used when displaying the screenshot "
-"on the image hosting service"
-msgstr "หมายเหตุกำกับภาพหน้าจอ ซึ่งจะใช้ในการแสดงภาพหน้าจอบนเว็บโฮสต์รูปภาพ"
-
 #: ../src/main.c:51
 msgid "Copy the screenshot to the clipboard"
 msgstr "คัดลอกภาพหน้าจอลงในคลิปบอร์ด"
@@ -485,10 +323,6 @@ msgstr ""
 #: ../src/main.c:93
 msgid "Show the saved file in the folder."
 msgstr ""
-
-#: ../src/main.c:98
-msgid "Host the screenshot on Imgur, a free online image hosting service"
-msgstr "เก็บภาพหน้าจอไว้ที่ Imgur ซึ่งเป็นบริการโฮสต์ภาพออนไลน์ฟรี"
 
 #: ../src/main.c:103
 msgid "Version information"
@@ -524,6 +358,5 @@ msgid ""
 "Allows you to capture the entire screen, the active window or a selected "
 "region. You can set the delay that elapses before the screenshot is taken "
 "and the action that will be done with the screenshot: save it to a PNG or "
-"JPG file, copy it to the clipboard, open it using another application, or "
-"host it on imgur, a free online image hosting service."
+"JPG file, copy it to the clipboard, open it using another application."
 msgstr "ช่วยคุณจับภาพหน้าจอทั้งหมด, หน้าต่างที่แอคทีฟ หรือพื้นที่หน้าจอที่เลือก คุณสามารถกำหนดให้หน่วงเวลาก่อนจับภาพได้ รวมถึงกำหนดการกระทำที่จะทำต่อภาพหน้าจอ: บันทึกเป็นแฟ้ม PNG หรือ JPG, คัดลอกไปยังคลิปบอร์ด, เปิดภาพโดยใช้แอปพลิเคชันอื่น, หรือโฮสต์ภาพไว้ที่ imgur ซึ่งเป็นบริการโฮสต์ภาพออนไลน์ฟรี"

@@ -172,10 +172,6 @@ msgstr "ਸਕਰੀਨਸ਼ਾਟ ਅੱਪਲੋਡ..."
 msgid "An error occurred while transferring the data to imgur."
 msgstr ""
 
-#: ../lib/screenshooter-imgur.c:166
-msgid "Imgur"
-msgstr ""
-
 #: ../lib/screenshooter-job-callbacks.c:72
 msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Status</span>"
 msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">ਹਾਲਤ</span>"
@@ -320,6 +316,6 @@ msgid ""
 "Allows you to capture the entire screen, the active window or a selected "
 "region. You can set the delay that elapses before the screenshot is taken "
 "and the action that will be done with the screenshot: save it to a PNG file,"
-" copy it to the clipboard, open it using another application, or host it on "
+" copy it to the clipboard, open it using another application.host it on "
 "imgur, a free online image hosting service."
 msgstr ""

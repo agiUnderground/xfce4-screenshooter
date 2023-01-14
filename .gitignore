@@ -45,3 +45,6 @@ src/xfce4-screenshooter.appdata.xml
 
 # UI header files generated using xdt-csource
 lib/*_ui.h
+
+# Temp
+Makefile_backup

@@ -11,38 +11,20 @@ a free online image hosting service~~.
 
 ----
 
-### Homepage
+### Original homepage
 
 [Xfce4-screenshooter documentation](https://docs.xfce.org/apps/xfce4-screenshooter/start)
 
-### Changelog
-
-See [NEWS](https://gitlab.xfce.org/apps/xfce4-screenshooter/-/blob/master/NEWS) for details on changes and fixes made in the current release.
-
-### Source Code Repository
+### Original Source Code Repository
 
 [Xfce4-screenshooter source code](https://gitlab.xfce.org/apps/xfce4-screenshooter)
-
-### Download a Release Tarball
-
-[Xfce4-screenshooter archive](https://archive.xfce.org/src/apps/xfce4-screenshooter)
-    or
-[Xfce4-screenshooter tags](https://gitlab.xfce.org/apps/xfce4-screenshooter/-/tags)
 
 ### Installation
 
 From source code repository: 
 
-    % cd xfce4-screenshooter
+    % cd xfce4-screenshooter-without-imgur
     % ./autogen.sh
-    % make
-    % make install
-
-From release tarball:
-
-    % tar xf xfce4-screenshooter-<version>.tar.bz2
-    % cd xfce4-screenshooter-<version>
-    % ./configure
     % make
     % make install
 

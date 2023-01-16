@@ -1,6 +1,7 @@
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.org/apps/xfce4-screenshooter/-/blob/master/COPYING)
 
 # xfce4-screenshooter without imgur
+![UI](fork-assets/screenshooter_clean_ui.png)
 
 Xfce4-screenshooter allows you to capture the entire screen, the active
 window or a selected region. You can set the delay that elapses

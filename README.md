@@ -31,3 +31,24 @@ From source code repository:
     % make
     % make install
 
+### FreeBSD
+
+##### Build dependencies
+
+    % msgfmt : devel/gettext-tools
+    % gmake>=4.3 : devel/gmake
+    % intltool-extract : textproc/intltool
+    % pkgconf>=1.3.0_1 : devel/pkgconf
+    % ice.pc : x11/libICE
+    % sm.pc : x11/libSM
+    % x11.pc : x11/libX11
+    % xfixes.pc : x11/libXfixes
+    % xext.pc : x11/libXext
+
+[Check out xfce4-screenshooter-plugin port for more dependencies information](https://www.freshports.org/x11/xfce4-screenshooter-plugin/)
+
+##### Troubleshooting
+
+    % In case there are any problems with a build try to delete `help2man` package
+    % `make` output is pretty bad at showing where exectly the problem is so you can use `truss`
+    % doas truss -f make

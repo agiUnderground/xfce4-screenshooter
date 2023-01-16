@@ -9,6 +9,8 @@ the screenshot: save it to a /PNG file, copy it to the clipboard, open
 it using another application, ~~or host it on imgur.com,
 a free online image hosting service~~.
 
+##### Why? Because:
+![Comment](fork-assets/user_comment.png)
 ----
 
 ### Original homepage
